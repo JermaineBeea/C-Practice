@@ -1,0 +1,150 @@
+using System;
+
+namespace WeThinkCode
+{
+    public class Katas
+    {
+        // PROBLEM 1
+        /// <summary>
+        /// Sort the digits of a number in descending order
+        /// Given a number, return the number with its digits sorted in descending order.
+        /// For example, given the number 12345, return 54321.
+        /// Note: The number may be negative, in which case the sign should be preserved.
+        /// For example, given the number -12345, return -54321.
+        /// Constraints: The number will be a 32-bit signed integer.
+        /// The number will not be zero.
+        /// </summary>
+        public static int DescendingOrder(int number)
+        {
+            // TODO: Implement this method
+            return 0;
+        }
+
+        /// <summary>
+        /// Converts a string with words separated by non-alphabetic characters (such as '-' or '_')
+        /// into camel case format. The first word remains unchanged, and each subsequent word starts
+        /// with an uppercase letter, with all separators removed.
+        /// 
+        /// For example:
+        /// ToCamelCase("the-stealth-warrior") returns "theStealthWarrior"
+        /// ToCamelCase("The_Stealth_Warrior") returns "TheStealthWarrior"
+        /// </summary>
+        public static string ToCamelCase(string s)
+        {
+            // TODO: Implement this method
+            return "";
+        }
+
+        // PROBLEM 2
+        /// <summary>
+        /// Count the number of vowels in a string
+        /// Given a string, return the number of vowels in the string.
+        /// For example, given the string "hello world", return 3.
+        /// Note: The string may contain uppercase and lowercase letters.
+        /// For example, given the string "Hello World", return 3.
+        /// </summary>
+        public static int VowelCount(string str)
+        {
+            // TODO: Implement this method
+            return 0;
+        }
+
+        // PROBLEM 3
+        /// <summary>
+        /// Find the next perfect square
+        /// Given a number, return the next perfect square.
+        /// For example, given the number 4, return 9.
+        /// If the number is not a perfect square, return -1.
+        /// For example, given the number 7, return -1.
+        /// </summary>
+        public static int FindNextSquare(int number)
+        {
+            // TODO: Implement this method
+            return 0;
+        }
+
+        // PROBLEM 4
+        /// <summary>
+        /// Take 2 strings s1 and s2 including only letters from a to z. 
+        /// Return a new sorted string (alphabetical ascending), the longest possible, 
+        /// containing distinct letters - each taken only once - coming from s1 or s2.
+        /// Examples:
+        /// a = "xyaabbbccccdefww"
+        /// b = "xyaabbbccccdefww"
+        /// UniqueLetters(a, b) => "abcdefwxy"
+        /// 
+        /// a = "abcdefghijklmnopqrstuvwxyz"
+        /// b = "abcdefghijklmnopqrstuvwxyz" 
+        /// UniqueLetters(a, b) => "abcdefghijklmnopqrstuvwxyz"
+        /// </summary>
+        public static string UniqueLetters(string str1, string str2)
+        {
+            // TODO: Implement this method
+            return "";
+        }
+
+        // PROBLEM 5
+        /// <summary>
+        /// Write a function that accepts an array of 10 integers (between 0 and 9), 
+        /// that returns a string of those numbers in the form of a phone number.
+        /// The returned format should be "(xxx) xxx-xxxx" where x is the given integer.
+        /// Note that the numbers in the array are not necessarily distinct.
+        /// Example: Katas.CreatePhoneNumber(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}) 
+        /// => returns "(123) 456-7890"
+        /// </summary>
+        public static string CreatePhoneNumber(int[] numbers)
+        {
+            // TODO: Implement this method
+            return "";
+        }
+
+        // PROBLEM 6
+        /// <summary>
+        /// A pangram is a sentence that contains every single letter of the alphabet at least once. 
+        /// For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, 
+        /// because it uses the letters A-Z at least once (case is irrelevant).
+        /// Given a string, detect whether or not it is a pangram. 
+        /// Return True if it is, False if not. Ignore numbers and punctuation.
+        /// </summary>
+        public static bool Pangram(string sentence)
+        {
+            // TODO: Implement this method
+            return false;
+        }
+
+        // PROBLEM 7
+        /// <summary>
+        /// You are given an array (which will have a length of at least 3, but could be very large) 
+        /// containing integers. The array is either entirely comprised of odd integers or entirely 
+        /// comprised of even integers except for a single integer N. 
+        /// Write a method that takes the array as an argument and returns this "outlier" N.
+        /// Example:
+        /// [2, 4, 0, 100, 4, 11, 2602, 36] -->  11 (the only odd number)
+        /// [160, 3, 1719, 19, 11, 13, -21] --> 160 (the only even number)
+        /// </summary>
+        public static int FindOutlier(int[] integers)
+        {
+            // TODO: Implement this method
+            return 0;
+        }
+
+        // PROBLEM 8
+        /// <summary>
+        /// In this assignment you are given a string of space separated numbers, 
+        /// and have to return the highest and lowest number.
+        /// Examples:
+        /// HighAndLow("1 2 3 4 5") // return "5 1"
+        /// HighAndLow("1 2 -3 4 5") // return "5 -3"
+        /// HighAndLow("1 9 3 4 -5") // return "9 -5"
+        ///
+        /// Notes:
+        /// There will always be at least one number in the input string.
+        /// Output string must be two numbers separated by a single space, and highest number is first.
+        /// </summary>
+        public static string HighAndLow(string numbers)
+        {
+            // TODO: Implement this method
+            return "";
+        }
+    }
+}
